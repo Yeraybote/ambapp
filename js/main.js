@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 const ambulanceIcon = L.icon({
-  iconUrl: '../img/ambulance.png',
+  iconUrl: './img/ambulance.png',
   iconSize: [32, 32],
   iconAnchor: [16, 16],
   popupAnchor: [0, -16]
