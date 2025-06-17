@@ -11,7 +11,12 @@
   <link rel="icon" type="image/png" href="./img/ambapp.jpg" />
 </head>
 <body>
-    <input type="text" id="search" placeholder="Buscar destino..." />
+    <div class="search-wrapper">
+      <input type="text" id="search" placeholder="Buscar destino..." autocomplete="off" />
+      <ul id="suggestions" class="suggestions-list"></ul>
+    </div>
+
+
     <div id="map"></div>
     <div id="route-info"></div>
     <!-- <div id="instructions"></div>-->
